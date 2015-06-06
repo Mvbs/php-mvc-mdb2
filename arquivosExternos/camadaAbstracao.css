@@ -1,0 +1,148 @@
+body{
+    font-family: Georgia,Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin: 25px;
+}
+
+/* begin: tabelas */
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #03476F;
+  font: normal 14px verdana, arial, helvetica, sans-serif;
+  color: #363636;
+}
+
+caption {
+  text-align: center;
+  font: bold 14px Verdana, Helvetica, arial, sans-serif;
+  background: transparent;
+  padding:6px 4px 8px 0px;
+  color: #FFF;
+  background: #4591AD;
+}
+
+td, th {
+  border: 1px dotted #03476F;
+  padding: .4em;
+  color: #363636;
+}
+
+thead th, tfoot th {
+  font: bold 11px verdana, arial, helvetica, sans-serif;
+  border: 1px solid #03476F;;
+  text-align: left;
+  background: #4591AD;
+  color: #FFFFFF;
+  padding-top:3px;
+  text-align: center;
+}
+
+tbody td a {
+  background: transparent;
+  text-decoration: none;
+  color: #363636;
+}
+
+tbody td a:hover {
+  background: #C2F64D;
+  text-decoration: none;
+  color: #363636;
+}
+
+tbody th a {
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  text-decoration: none;
+  font-weight:normal;
+  color: #363636;
+}
+
+tbody th a:hover {
+  background: transparent;
+  text-decoration: none;
+  color: #363636;
+}
+
+tbody th, tbody td {
+  vertical-align: top;
+  text-align: left;
+}
+
+tfoot td {
+  border: 1px solid #03476F;
+  background: #4591AD;
+  padding-top:3px;
+  color: #FFFFFF;
+}
+
+.odd {
+  background: #AEE239;
+}
+
+tbody tr:hover {
+  background: #FFD800;
+  border: 1px solid #03476F;
+  color: #FFFFFF;
+}
+
+tbody tr:hover th,
+
+tbody tr.odd:hover th {
+  background: #FFD800;
+  color: #FFFFFF;
+}
+
+/* end: tabelas */
+
+input { margin: 10px; padding: 2px; }
+label { font-weight: bold }
+h4 { font-variant: small-caps; }
+
+.caixaForm, .subCaixaForm{
+    
+    border-radius: 15px;
+    background-color: #E4E4E4;
+    margin: 2px;
+    border: 1px #000000 solid;
+    padding: 10px;
+}
+
+.subCaixaForm{
+    margin: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.info, .sucesso, .aviso, .erro, .validacao {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border-radius: 25px;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    /*background-image: url('./imgs/info.jpg');*/
+}
+
+.sucesso {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    /*background-image: url('./imgs/successo.jpg');*/
+}
+
+.aviso {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    /*background-image: url('./imgs/aviso.jpg');*/
+}
+
+.erro {
+    color: #D8000C;
+    background-color: #FFBABA;
+    /*background-image: url('./imgs/erro.jpg');*/
+}
