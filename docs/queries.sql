@@ -22,6 +22,6 @@ INSERT INTO profissao VALUES (19, 'Professor');
 INSERT INTO profissao VALUES (20, 'Engenheiro');
 
 -- MYSQL
-insert into usuario values (NULL, 'Marlon Vinicius de Barros Souza', '1986-04-17' , '61 8199-4308');
+insert into usuario values (NULL, 'Marlon Vinicius de Barros Souza', '1986-04-17' , '99 9999-9999');
 -- PGSQL
-insert into usuario values (nextval('id_usuario_seq'), 'Marlon Vinicius de Barros Souza', '1986-04-17' , '61 8199-4308');
+insert into usuario values (nextval('id_usuario_seq'), 'Marlon Vinicius de Barros Souza', '1986-04-17' , '99 9999-9999');
